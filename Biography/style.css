@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  font-family: "Gothic A1";
+  font-size: 16px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+    }
+header {
+    background-color: #333333;
+    text-align: center;
+    Margin: 0;
+}
+a {
+    color: #d21034;
+  }
+  
+h1 {
+    font-family: "Merriweather";
+    color: #eee;
+    font-size: 28px;
+    padding: 20px 0;
+    height: 42px;
+    }
+h2 {
+    font-family: "Merriweather";
+    color: #333;
+    font-size: 24px;
+}
+#main-bio,
+#contact-info,
+#boomHeadshot {
+    float:left;
+    overflow:auto
+}
+#navbar {
+    text-align: center;
+    height: 60px;
+    padding: 12px 0 0 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    background: #ccc;
+}
+#main-bio {
+    width: 65%;
+    margin-left: 10px
+}
+
+#main-bio p {
+ margin-bottom: 16px
+}
+
+#boomHeadshot 
+{
+    padding: 12px 12px 0 0;
+    width: 200px;
+}
+#contact-info {
+    float: right;
+    width: 20%;
+    height: 1.5;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    #main-bio,
+    #contact-info {
+        margin: 18px;
+        padding: 16px      
+    }
+    #boomHeadshot {
+        float:none;
+    }
+    #main-bio {
+        width: 540px;
+        float: none;
+        
+    }
+    #contact-info {
+        width: 540px;
+        float: none
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position:static;
+    }
+    #main-bio #contact-info {
+        margin: 4px;
+        padding: 8px;
+    }
+
+    #boomHeadshot {
+        float:none;
+        width: 200px
+    }
+    #main-bio {
+        float: none;
+        width: 370px;
+    }
+    #contact-info {
+        float: none;
+        widows: 370px;
+    }
+}
